@@ -1,0 +1,36 @@
+
+@media (max-width: 600px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+ /*Aquí adaptamos el logo, ya que al estar en un col-, queda al 100% y deforma la pagina*/
+  .log {
+    width: 50%;
+  }
+   [class*="search"] {
+    width: 20%;
+  }
+  .user{
+    background-color: #FFE521;
+    font-family: 'Open Sans';
+    border-radius: 0.2em;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+  /*Nombre del Usuario*/
+  #imgVale{
+    margin-left: 25px;
+    margin-bottom: 10px; 
+    width: 20%;  
+    display: inline-block;
+    text-align: center;
+  }
+  #nameUser {
+    font-family: 'Open sans';
+    font-size: 12px;
+    text-align: left;
+    color: black;
+    display: inline-block;
+  }
+}
